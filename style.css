@@ -1,0 +1,155 @@
+html, body, div, span, object,
+h1, h2, h3, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, em, img, ins, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header section {
+	display: inline-block;
+	float: left;
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+}
+
+.divider{
+	background-color: black;
+	clear: both;
+	height: 10px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.topSpace {
+	display: block;
+	clear: both;
+	margin-top: 20px;
+}
+
+.emptyList {
+	overflow: hidden;
+	background-image:url(https://dl-web.dropbox.com/get/emptylist.png?_subject_uid=374027585&w=AAAkuVNudbo0xat-UwK2498c8mYPS1S47nFZ0LGi0NjIWw);
+
+}
+
+li {
+	margin-left: 50px;
+	font-family: Optima;
+	font-size: 16px;
+	color: #808080;
+}
+
+.subheader {
+	font-size: 8px;
+	font-family: Monaco;
+	color: #808080;
+	text-transform: uppercase;
+	margin: 2px;
+
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+	display: inline;
+}
+
+.paragraphs {
+	display: block;
+	clear: both;
+
+}
+
+footer div {
+	clear: both;
+	height: 2px;
+	background-color: #b2b2b2;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+.delicious {
+	font-family: Yellowtail;
+	font-size: 25px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+article section img {
+	display: block;
+	clear: both;
+}
+
+.header {
+	font-size: 22px;
+	font-family: Impact;
+	margin: 2px;
+}
+
+p {
+	font-size: 12px;  
+	font-family: Optima;
+	color: #808080;
+
+}
+
+.name {
+	font-size: 14px;
+	font-family: Helvetica;
+	font-style: bold;
+}
+
+body {
+	margin: 0 auto;
+	width: 600;
+}
+
+.pizzaImg {
+	height: 401px;
+	width: 600px;
+}
+.leftList {
+	display: inline-block;
+	list-style-type: none;
+}
+.rightList {
+	display: inline-block;
+	margin-right: 63px;
+	list-style-type: none;
+}
+.shareButton {
+	background-color: #A32900;
+	color: white;
+	font-family: Helvetica;
+	height: 40px;
+	width: 100px;
+	border: none;
+	margin-top: 20px
+}
+
+.inline {
+	display: inline-block;
+}
